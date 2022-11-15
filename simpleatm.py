@@ -18,6 +18,7 @@ def main():
             if name == inputName:
                 index = count #index of anme is stored and if the pin of that index is same user will be given access to the account.
                 inputPin = input("\nEnter Pin Number: ")
+                inputpin = input("\n Reenter Pin Number: ")
             count += 1
 
         if inputPin == pinCode[index]:
@@ -56,7 +57,7 @@ def main():
                 balance.remove(balance[index])#removing the old ammount from the list and adding the new list after draw.
                 balance.insert(index,remainingBalalnce)
                 availableBalance = print("Your available balance is: ",remainingBalalnce)
-            print("\n\nThank you for using this Simple ATM System. \n  Brought To You By code-projects.org")
+            print("\n\nThank you for using this Simple ATM System.")
 
 main()
 
