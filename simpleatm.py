@@ -1,13 +1,13 @@
 def main():
     pinCode = ["1234", "1999", "2424", "1985", "5555"] #data of the account holders
-    accountHoldersName = ["harry den", "zain ul abideen", "waseema shaukat", "ayesha mukhtar", "khalid mahmood"]
+    accountHoldersName = ["harry potter", "navna saxena", "shaukat ali", "ayesha mukhtar", "parul yadav"]
     accountNumber = ['1353', '199281', "182838", "185597", "667432"]
     balance = [567000, 21873, 2341871, 275638, 91820]
 
     flag = False
     for i in range (0,999999999): #so the loop runs almost infinit many times
         print("""
-    \t\t=== Welcome To Simple ATM System ===
+    \t\t=== Welcome To ATM System ===
 """)
         inputName = input("Enter Your Name: ")
         inputName = inputName.lower()
